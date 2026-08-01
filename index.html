@@ -3,7 +3,7 @@
 <head>
 
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Happy Friendship Day ❤️</title>
 
@@ -13,15 +13,32 @@
 
 </head>
 
+<body>
+
+<div class="card">
+
+<h1 id="heading"></h1>
+
+<p id="typing"></p>
+
+<button onclick="gift()">
+🎁 Open Surprise
+</button>
+
+</div>
+
+
+<!-- Popup Letter -->
+
 <div id="letterBox" class="letter">
 
-    <div class="letter-content">
+<div class="letter-content">
 
-        <span class="close" onclick="closeLetter()">✖</span>
+<span class="close" onclick="closeLetter()">✖</span>
 
-        <h2>💖 Happy Friendship Day 💖</h2>
+<h2>💖 Happy Friendship Day 💖</h2>
 
-        <p>
+<p>
 
 Dear Friend,
 
@@ -33,7 +50,7 @@ Thank you for every laugh, every memory, every moment of support and every smile
 
 I may not say it often, but I truly appreciate having you in my life.
 
-I hope our friendship stays as beautiful as it is today and keeps growing stronger every year.
+I hope our friendship grows stronger every year.
 
 No matter where life takes us, you'll always have a special place in my heart.
 
@@ -47,36 +64,9 @@ No matter where life takes us, you'll always have a special place in my heart.
 
 </p>
 
-    </div>
-
-</div>
-  
-
-<body>
-
-<div id="particles"></div>
-
-<div class="card">
-
-<h1 id="heading"></h1>
-
-<p id="typing"></p>
-
-<button onclick="gift()">
-
-🎁 Open Surprise
-
-</button>
-
-<div id="wish">
-
-💖 Thank you for making life beautiful. 💖
-
 </div>
 
 </div>
-
-<canvas id="fireworks"></canvas>
 
 <audio id="music" loop>
 <source src="music.mp3">
@@ -85,4 +75,5 @@ No matter where life takes us, you'll always have a special place in my heart.
 <script src="script.js"></script>
 
 </body>
+
 </html>
