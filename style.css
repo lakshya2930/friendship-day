@@ -6,20 +6,17 @@ font-family:Poppins,sans-serif;
 }
 
 body{
-
-height:100vh;
-display:flex;
-justify-content:center;
-align-items:center;
-overflow:hidden;
-
-background:linear-gradient(135deg,#4facfe,#00f2fe,#6a11cb,#ff758c);
-
-background-size:400%;
-
-animation:bg 10s infinite;
-
+    margin:0;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    background:linear-gradient(135deg,#4facfe,#00f2fe,#6a11cb,#ff758c);
+    background-size:400%;
+    animation:bg 10s infinite;
 }
+
 
 @keyframes bg{
 
@@ -30,26 +27,12 @@ animation:bg 10s infinite;
 }
 
 .card{
-
-width:90%;
-max-width:520px;
-
-background:rgba(255,255,255,.15);
-
-backdrop-filter:blur(15px);
-
-padding:40px;
-
-border-radius:25px;
-
-text-align:center;
-
-color:white;
-
-box-shadow:0 20px 40px rgba(0,0,0,.3);
-
-animation:zoom 1s;
-
+    width:90%;
+    max-width:550px;
+    text-align:center;
+    padding:45px;
+    position:relative;
+    z-index:10;
 }
 
 @keyframes zoom{
