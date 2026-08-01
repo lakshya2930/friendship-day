@@ -28,11 +28,17 @@ type();
 
 function gift(){
 
-document.getElementById("wish").style.display="block";
+document.getElementById("letterBox").style.display="flex";
 
 document.getElementById("music").play();
 
 fireworks();
+
+}
+
+function closeLetter(){
+
+document.getElementById("letterBox").style.display="none";
 
 }
 
