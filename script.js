@@ -27,19 +27,11 @@ setTimeout(type,40);
 type();
 
 function gift(){
-
-document.getElementById("letterBox").style.display="flex";
-
-document.getElementById("music").play();
-
-fireworks();
-
+    document.getElementById("letterBox").classList.add("show");
 }
 
 function closeLetter(){
-
-document.getElementById("letterBox").style.display="none";
-
+    document.getElementById("letterBox").classList.remove("show");
 }
 
 function fireworks(){
